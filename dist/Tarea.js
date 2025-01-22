@@ -10,6 +10,7 @@ class Tarea {
     }
     MarcarCompletada() {
         this.completada = true;
+        console.log('Tarea completada');
     }
 }
 exports.Tarea = Tarea;

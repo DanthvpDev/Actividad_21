@@ -19,7 +19,7 @@ class GestorTareas {
         return this._almacenadorTareas;
     }
     BuscarItemPorId(id) {
-        return this._almacenadorTareas.find((elem) => elem.id == id);
+        console.log(this._almacenadorTareas.find((elem) => elem.id == id));
     }
 }
 exports.GestorTareas = GestorTareas;

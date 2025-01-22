@@ -15,8 +15,8 @@ class GestorTareas<T> {
     }
 
     @LogMetodo
-    public BuscarItemPorId(id : number): T | undefined {
-        return this._almacenadorTareas.find((elem:any) => elem.id == id);
+    public BuscarItemPorId(id : number): void {
+        console.log(this._almacenadorTareas.find((elem:any) => elem.id == id));
     }
 }
 
